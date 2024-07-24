@@ -60,6 +60,9 @@ public class Otp extends HttpServlet {
         out.print("<input type='hidden' name='randotp' value=" + msg + ">");
         
         out.print("<label>OTP sent to the GMAIL address entered while booking the ticket</label>");
+        out.print("<label>OTP sent to the GMAIL address entered while booking the ticket</label>");
+        
+        out.print("<label>OTP sent to the GMAIL address entered while booking the ticket</label>");
         
         out.print("<label>Enter OTP:</label>");
         out.print("<input type='text' name='mailotp' required>");
